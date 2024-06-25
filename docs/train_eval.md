@@ -13,7 +13,12 @@ conda activate vad
 ./tools/dist_train.sh [path to the config file] [num of GPUs]
 ```
 
++ For combine VLM with VAD: ./tools/dist_train.sh  [path to VAD_fusion_e2e.py] [num of GPUs]
+
++ For combine white box results with VAD: ./tools/dist_train.sh  [path to VAD_white_box_fusion.py] [num of GPUs]
+
 ## Eval  with 1 GPU
+
 ```shell
 cd /path/to/VAD
 conda activate vad
